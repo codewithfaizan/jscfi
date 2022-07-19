@@ -7,18 +7,18 @@
 // console.log(a)
 
 // b+=4 // b = b+4 ; 4+4
-// c+=3 // c = c+3 ; 3+3
+// c+=3 // c = c+3 ; 6+3
 // console.log(b)
 // console.log(c)
 
 // a =a+b
-// b+=c
-// c+=a
-// console.log(c,a,b)
+// b+=c // b= b+c
+// c+=a // c= c+a 
+// console.log(c)
 
 // a+=b
 // a-=2 
-// b*=c
+// b!=c
 // c-=b
 // console.log(b,a,c)
  
@@ -40,10 +40,14 @@
 
 var a=5,b=-3,c=-6
 
-console.log(c>b>c) //true
-console.log(c<b<a) //true
-console.log(c>b<a) //true
+// console.log(c>b>c) //true
+// console.log(c<b<a) //true
+// console.log(c>b<a) //true
 console.log(c>b<a) //true
 console.log(a>b<c) //false
 console.log(b<a<c) //false
-console.log(c<c<c) //
+console.log(c<c<c) //false
+
+
+// console.log('hello' == 'hello');
+// console.log('1' ==  1);

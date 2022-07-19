@@ -1,7 +1,8 @@
-// // Arithematic operater 
+// Arithematic operater 
 
-// a = 2 , b = 4;
-// console.log(a+b)
+var a = 8;
+var b = 3;
+
 
 // console.log(4+b)
 
@@ -18,20 +19,20 @@
 
 // console.log(a*b*0)
 
-// console.log(a*b+a/2-2)
+// console.log(a*b+a/2-2) // (12*9+12/2-2)
 
 
-// console.log(a*(b+a)/2-2)
+// console.log(a*(b+a)/2-2) 
 
 // console.log(a+(a-(b*a)))
 
 // console.log(a%b)
-// //divisor =b ; dividend =a
-// // 4)2( 
+//divisor =b ; dividend =a
+// 
 
 //     console.log(a/b)
 
-// // float divison a//b 
+// float divison a//b 
 
 // console.log(Math.floor(0.9))
 
@@ -48,16 +49,23 @@
 
 // console.log(4**2) 
 
-console.log(4**2**3)
+// console.log(4**2**3)
 
 
-console.log(4**(2**3))
+// console.log(4**(2**3))
 
 
-console.log((4**2)**3) 
+// console.log((4**2)**3) 
 
-console.log() 
-
-
+// console.log() 
 
 
+
+
+// x =1;
+// y = ++x
+// console.log()
+
+x =2;
+y = --x
+console.log(y)
