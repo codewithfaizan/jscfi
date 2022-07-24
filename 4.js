@@ -1,7 +1,7 @@
 // var 123
 // console.log(123)
 
-// var a; //initialize
+// var a; //initialize and declare
 // a =10; //define
 // a =12; //redefine
 

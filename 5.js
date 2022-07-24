@@ -1,7 +1,6 @@
 // Arithematic operater 
 
-var a = 8;
-var b = 3;
+// var a = 8;/
 
 
 // console.log(4+b)
@@ -40,9 +39,10 @@ var b = 3;
 
 // console.log(Math.round(0.9))
 
-// console.log(4**3)
+console.log(4**3)
 
-// console.log((8**2)**2)
+
+console.log((8**2)**2)
 
 // console.log(3**2**3) 
 
