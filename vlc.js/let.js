@@ -1,5 +1,5 @@
 // let a ; //declare
-// a=6; //define
+// a=6; //defi  ne
 // console.log(a);
 
 // a =3; // define
@@ -22,7 +22,7 @@
 //     console.log(a);
 // }
   
-// let a =3; // local 
+// let a =3; // global
 // console.log(a);
 // {
 //     let a = 4; //local
@@ -35,9 +35,15 @@
 // console.log(a);
 // {
 //     a=4;
-//     console.log(a);
+//     console.log(a); 
 // }
-// var a=7;;
+// let a=7;
 // console.log(a);  /// not possible, cannot be modified
 
+// let x = 10;
+// console.log(x) // Here x is 10
 
+// {
+// let x = 2;
+// console.log(x) // Here x is 2
+// }

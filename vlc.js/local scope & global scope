@@ -1,0 +1,23 @@
+// function prints()   // use comment and dontrial and error
+// {
+//     var local_var = 2;// a local variable with value 2
+//     console.log(local_var);
+//     //the local_var can be used anywhere inside this function
+// }
+// console.log(local_variable)
+
+///-------------------------------------------------
+
+var global_var = 1;
+console.log(global_var); //1
+// function prints()
+{
+    let global_var = 2;
+    console.log(global_var); //output: 1 //2
+}
+console.log(global_var)
+
+//---------------------------
+
+
+

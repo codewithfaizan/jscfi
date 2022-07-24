@@ -65,3 +65,7 @@
 
 // console.log(window.x); // output: undefined
 // console.log(window.y);
+//
+
+
+
