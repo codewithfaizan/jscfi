@@ -1,4 +1,4 @@
-// Program decide a given number is positive/negative/zero
+// ---------------------------------Program decide a given number is positive/negative/zero---------------------------------
 
 // let a;
 // a = 'hu';
@@ -12,7 +12,7 @@
 
 // 
 
-// even or odd program
+// -----------------------------number is even or odd program--------------------
 
 // let a;
 // a = 3;                   //even number if the remainder is only 0 when it is divided by 2 else odd
@@ -26,7 +26,7 @@
 //-------------------------------conditions---------------------
 
 
-// program to decide which number is greater? // largest of two numbers
+//------------- program to decide which number is greater? // largest of two numbers
 
 // first find all the possibility that the question can take
 // be good at the logic + typing + syntax } good programmer
@@ -43,13 +43,7 @@
 
 
 
-//Program to decide which number is greater? given you have 3 numbers. or // Program to find greatest number among 3 inputs? //bonus question
-
-//logic for bonus question
-//      -  a = 1
-//      -  b = 2
-//      -  c = 3
-
+//---------------------program to check the given number is multiple of 3 and multiple of 5 or both or not---------------------
 // multiples of 3 and multiples of 5
 // var a= 15;
 // if ((a%3) ==0){ //
@@ -97,9 +91,8 @@
 //     console.log('Not a fizz buzz')
 // } 
 
-//---------------Example Algorithms--------------
-// largest of three numbers
-
+//-------------------------------------Example Algorithms-------------------------------
+// -----------------------------------largest of three numbers--------------------------------
 // let a, b, c;
 // a = 3;
 // b = 8 ;
@@ -156,3 +149,6 @@
 // } else {
 //     console.log(`${c} is greater`)
 // }
+
+
+// sides = new Array(1,2,3);

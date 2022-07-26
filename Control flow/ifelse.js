@@ -1,4 +1,5 @@
-// let a ;
+//-------------number is positive or negative--------------
+//  let a ;
 // a = '0';
 // if ( a >= 0){
 //     console.log(`${a} is positive`);
@@ -6,7 +7,7 @@
 //     console.log("a is not positive")
 // }
 
-
+//---------------------------------------
 // let a;
 // a = 20 ;
 // if ( a == 10){
@@ -47,7 +48,7 @@
 //         }
 //     }
 // -------------------------if else if ------------------
-
+//--------------------program to find out what is the given month------------
 // let month;
 // month = 4;
 // if(month == 1){
@@ -92,7 +93,7 @@
 
 //    monthName(1);
 
-// ----------- Given triangle is equilateral, scalene , isosceleslet 
+// ------------- Given triangle is equilateral, scalene , isosceleslet 
 // let a, b, c;
 // a = 1;
 // b = 5;
@@ -104,16 +105,17 @@
 // }else{
 //     console.log("isoscelene");
 // }
+//--------------program to check wheather the given sides 
+// let a, b, c;
+// a = 5;
+// b = 5;
+// c = 5;
+// if ((a==b)&&(a==c)){
+//    console.log("Equilateral triangle");
+// } else if((a==b)|| (b==c)){
+//     console.log("scalene");
+// }else{
+//     console.log("isoscelene");
+// }
 
-let a, b, c;
-a = 5;
-b = 5;
-c = 5;
-if ((a==b)&&(a==c)){
-   console.log("Equilateral triangle");
-} else if((a==b)|| (b==c)){
-    console.log("scalene");
-}else{
-    console.log("isoscelene");
-}
-
+//-------------restructuring-----------

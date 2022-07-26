@@ -62,7 +62,7 @@
 //     console.log(`${c} is greater`)
 // }
 
-var a = 1, b = 2, c = 3;
+var a = 1, b = -5, c = -7;
 if ((a>b) && (a>c)){ 
     console.log(`${a} is greater`)
 } else if ((b>a) && (b>c)){
