@@ -48,10 +48,127 @@
 // }
 
 //-----------even number using logic-------
-i = 50
-while(i<=100){
-    if ((i%2)==0){
-        console.log(i);     
-    } 
-    i+2; 
+// i = 50
+// while(i<=100){
+//     if ((i%2)==0){
+//         console.log(i);     
+//     } 
+//     i+=2; 
+// }
+
+// i=4
+// console.log(i+2)
+// i=i+2
+// console.log(i)
+
+
+//------------------multiples of 7------------
+// i = 1
+// while(i<=200){
+//     if((i%7)==0){
+//     console.log(i)
+// } 
+//     i+7
+// }
+
+//--------to print 2 table using while loop
+// i = 1;
+// count = 1;
+// while(i<=20){
+//     if((i%2)==0){
+//     console.log(`2x${count}=${i}`);
+//     count++;
+//     } 
+//     i++;
+// }
+
+// same logic without declaring count
+// i = 1;
+// count = 0;
+// while(i<=20){
+    // if((i%2)==0){
+//     console.log(`2x${i}=${i*2}`);
+    // count++;
+    // } 
+//     i++;
+// }
+
+// 3 table
+// i = 1;
+// count = 1;
+// while(i<=30){
+//     if((i%3)==0){
+//     console.log(`3x${count}=${i}`);
+//     count++;
+//     } 
+//     i++;
+// }
+
+// // 4 table 
+// i = 1;
+// count = 1;
+// while(i<=40){
+//     if((i%4)==0){
+//     console.log(`4x${count}=${i}`);
+//     count++;
+//     } 
+//     i++;
+// }
+
+// // 5 table
+// i = 1;
+// count = 1;
+// while(i<=50){
+//     if((i%5)==0){
+//     console.log(`5x${count}=${i}`);
+//     count++;
+//     } 
+//     i++;
+// }
+
+//bonus question 
+// i = 1;
+// // count = 0;
+// while(i<=20){
+//     // if((i%2)==0){
+//     console.log(`2x${i}=${i*2}`);
+//     // count++;
+//     // } 
+//     i++;
+// }
+
+
+// a = 'Code';
+// i = 0;
+// while(i<=(a.length-1)){
+//     console.log(`${a[i]}`);
+//     i++;
+// } 
+
+
+// even char of the string 
+// a = 'CodeForIndia'
+// a = 'Code';
+// i = 0;
+// while(i<=(a.length)){
+//     if(
+//         (i%2 == 0))
+//     console.log(`${a[i]}`);
+//     i++;
+// } 
+
+
+//objects
+a ={1:'a',2:'b',3:'c',4:'d'};
+l = Object.keys(a);
+t = Object.values(a);
+// console.log(l);
+// console.log(t)
+// console.log(l.length)
+i = 0;
+while(i<l.length){
+    console.log(`${l[i]} : ${t[i]}`);
+    i++;
 }
+
+// while(l)
