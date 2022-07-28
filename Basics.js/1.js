@@ -13,6 +13,6 @@
 // a
 // console.log(b,a)
 
-var a,b
+// var a,b
 
-console.log(b,a)
+// console.log(b,a)

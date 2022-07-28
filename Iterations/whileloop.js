@@ -1,15 +1,15 @@
 // Initialization (Start value)
-// wwile (Condition till it terminates-false){
+// while (Condition till it terminates-false){
         //  task/ Statement
 // }
 
 //------------program to print 1-10----------
-// i=1                         
+// i=1  
 // while(i<=10){              
 //     console.log(i)
-    // i++
-    // i = i+1
-//     i+=1
+//     i++;
+//     // i = i+1
+//     // i+=1
 // }
 
 
@@ -24,7 +24,7 @@
 //iteration-9 : i = 9; 9<=10; 9 ; (10)
 
 
-//-----------------------------program to print 10-1----------
+//-------------------program to print 10-1-------------------
 // i=10                     
 // while(i>=1){
 //     console.log(i);
@@ -33,12 +33,14 @@
     // i-=1
 // }
 
-//-------program ton print even number starting from 50 - 100
+//-------program to print even number starting from 50 - 100
 //  i = 50;
+//  count = 0;
 //  while(i<=100){
-//         console.log(i)
-//     i=i+2
-//  }
+//     console.log(i);
+//     i=i+2;
+//     count++
+//  }console.log(count)
 
 //---------program to print odd number starting from 50-100
 // i = 51;
@@ -47,28 +49,25 @@
 //     i=i+2
 // }
 
-//-----------even number using logic-------
-// i = 50
+//----------------------even number using logic --------------
+ 
+// i=50
 // while(i<=100){
-//     if ((i%2)==0){
-//         console.log(i);     
-//     } 
-//     i+=2; 
-// }
-
-// i=4
+//     if((i%2)==0){
+//     console.log(i);}
+//     i++;
+// } 
 // console.log(i+2)
 // i=i+2
 // console.log(i)
 
-
-//------------------multiples of 7------------
+ 
+//----------------------------multiples of 7-----------------
 // i = 1
 // while(i<=200){
 //     if((i%7)==0){
-//     console.log(i)
-// } 
-//     i+7
+//     console.log(i)}
+//     i++;
 // }
 
 //--------to print 2 table using while loop
@@ -84,12 +83,12 @@
 
 // same logic without declaring count
 // i = 1;
-// count = 0;
+// count = 0;/
 // while(i<=20){
-    // if((i%2)==0){
-//     console.log(`2x${i}=${i*2}`);
+//     if((i%2)==0){
+//     console.log(`2x${i}=${i*1}`);
     // count++;
-    // } 
+//     } 
 //     i++;
 // }
 
@@ -104,7 +103,7 @@
 //     i++;
 // }
 
-// // 4 table 
+// 4 table 
 // i = 1;
 // count = 1;
 // while(i<=40){
@@ -115,7 +114,7 @@
 //     i++;
 // }
 
-// // 5 table
+// 5 table
 // i = 1;
 // count = 1;
 // while(i<=50){
@@ -126,18 +125,24 @@
 //     i++;
 // }
 
-//bonus question 
+// bonus question test 
 // i = 1;
-// // count = 0;
-// while(i<=20){
-//     // if((i%2)==0){
-//     console.log(`2x${i}=${i*2}`);
-//     // count++;
-//     // } 
-//     i++;
-// }
+// count = 1;
+// a = [2,3,4,5];
+// while(i<=10){
+//     if(a[0]%2 == 0){
+//         console.log(`${a[0]}x${count}:${i*2}`);
+//         count++;
+//     }i++;
+// } 
+// while(i<=10){
+//     if(a[1]%2 == 0){
+//         console.log(`${a[1]}x${count}:${i*3}`);
+//         count++;
+//     }i++;
+// } 
 
-
+//program to print the characters in a line
 // a = 'Code';
 // i = 0;
 // while(i<=(a.length-1)){
@@ -159,16 +164,39 @@
 
 
 //objects
-a ={1:'a',2:'b',3:'c',4:'d'};
-l = Object.keys(a);
-t = Object.values(a);
+// a ={1:'a',2:'b',3:'c',4:'d'};
+// l = Object.keys(a);
+// t = Object.values(a);
 // console.log(l);
 // console.log(t)
 // console.log(l.length)
-i = 0;
-while(i<l.length){
-    console.log(`${l[i]} : ${t[i]}`);
-    i++;
-}
+// i = 0;
+// while(i<l.length){
+//     console.log(`${l[i]} : ${t[i]}`);
+//     i++;
+// }
 
 // while(l)
+
+//
+// i =10
+// while(i>=1){
+//     console.log(i);
+//     i--;
+// }
+
+
+
+
+
+// -------table to print from 10 to 20-------
+var start=10, end=20;
+while (start<=end){
+    console.log(`------------${start} "\Table \" ------------`)
+    i=1
+    while(i<=10){
+        console.log(`${start} x ${i} = ${start*i}`)
+        i++
+    }
+    start++;
+}

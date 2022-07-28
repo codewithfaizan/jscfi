@@ -1,4 +1,5 @@
-// ---------------------------------Program decide a given number is positive/negative/zero---------------------------------
+// ---------------------------------Program 
+// ecide a given number is positive/negative/zero---------------------------------
 
 // let a;
 // a = 'hu';
@@ -12,8 +13,7 @@
 
 // 
 
-// -----------------------------number is even or odd program--------------------
-
+// -----------------------------number is even or odd program--------------------==
 // let a;
 // a = 3;                   //even number if the remainder is only 0 when it is divided by 2 else odd
 //  if((a%2) == 0){           //use braces that it will reduce the chances of giving output wrong even if it is correct because of the precedence
@@ -23,7 +23,7 @@
 //  }
 
 
-//-------------------------------conditions---------------------
+//--------------------------------------------------conditions---------------------
 
 
 //------------- program to decide which number is greater? // largest of two numbers
@@ -91,7 +91,7 @@
 //     console.log('Not a fizz buzz')
 // } 
 
-//-------------------------------------Example Algorithms-------------------------------
+//----------------------------------------Example Algorithms-------------------------------
 // -----------------------------------largest of three numbers--------------------------------
 // let a, b, c;
 // a = 3;
@@ -152,3 +152,57 @@
 
 
 // sides = new Array(1,2,3);
+
+//..--------------------scope---------------
+// var a = 8
+// {
+//     console.log(a)
+//     {
+        // console.log(b)
+        // const b = 9
+//         console.log(a+"1")
+//     }
+//     console.log(a+"2")
+    // let a =99
+// }
+// console.log(a+"4")
+
+//---------------------//------given number is a 3 digit number??-----------
+
+// let num = (111);
+// console.log(num.length)
+// if (a.length == 3)
+
+
+//----------------------calculatortest------------
+
+var a = 9.5, b = 2.8; op = 'ceil'
+if(op=='+'){
+    result= a+b
+    // console.log(result)
+}else if(op=='-'){
+    result = a-b
+    // console.log(result)
+}else if(op=='*'){
+    result = a*b
+    // console.log(result)
+}else if(op=='/'){
+    result=a/b
+    // console.log(result)
+}else if(op=='%'){
+    result = a%b
+    // console.log(result)
+} else if(op == 'sqrtroot'){
+    result = a**2
+    // console.log(result)
+}else if(op == 'exp'){
+    result = a**b
+    // console.log(result)
+} else if(op == 'floor'){
+    result = [Math.floor(a), Math.floor(b)]
+    // console.log(result)
+}else if(op == 'ceil'){
+    result = [Math.ceil(a),Math.ceil(b)]
+    // console.log(result)
+}
+console.log(result)

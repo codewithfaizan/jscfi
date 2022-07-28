@@ -2,7 +2,7 @@
 // {
 //     var local_var = 2;// a local variable with value 2
 //     console.log(local_var);
-//     //the local_var can be used anywhere inside this function
+    //the local_var can be used anywhere inside this function
 // }
 // console.log(local_variable)
 
