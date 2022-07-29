@@ -1,4 +1,5 @@
-//Q1.---------------------------------- --Accept only interger , make a number always positive though given negative----------------------
+// Assignment Questions given on 26th July 
+// /Q1.---------------------------------- --Accept only interger , make a number always positive though given negative----------------------
 
 // var a = Math.abs(-7); //using function 
 // console.log(a);

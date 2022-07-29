@@ -153,7 +153,7 @@
 
 // sides = new Array(1,2,3);
 
-//..--------------------scope---------------
+//..-------------------------------------------scope---------------
 // var a = 8
 // {
 //     console.log(a)
@@ -176,33 +176,82 @@
 
 //----------------------calculatortest------------
 
-var a = 9.5, b = 2.8; op = 'ceil'
-if(op=='+'){
-    result= a+b
+// var a = 9.5, b = 2.8; op = 'ceil'
+// if(op=='+'){
+//     result= a+b
     // console.log(result)
-}else if(op=='-'){
-    result = a-b
+// }else if(op=='-'){
+//     result = a-b
     // console.log(result)
-}else if(op=='*'){
-    result = a*b
+// }else if(op=='*'){
+//     result = a*b
     // console.log(result)
-}else if(op=='/'){
-    result=a/b
+// }else if(op=='/'){
+//     result=a/b
     // console.log(result)
-}else if(op=='%'){
-    result = a%b
+// }else if(op=='%'){
+//     result = a%b
     // console.log(result)
-} else if(op == 'sqrtroot'){
-    result = a**2
+// } else if(op == 'sqrtroot'){
+//     result = a**2
     // console.log(result)
-}else if(op == 'exp'){
-    result = a**b
+// }else if(op == 'exp'){
+//     result = a**b
     // console.log(result)
-} else if(op == 'floor'){
-    result = [Math.floor(a), Math.floor(b)]
+// } else if(op == 'floor'){
+//     result = [Math.floor(a), Math.floor(b)]
     // console.log(result)
-}else if(op == 'ceil'){
-    result = [Math.ceil(a),Math.ceil(b)]
+// }else if(op == 'ceil'){
+//     result = [Math.ceil(a),Math.ceil(b)]
     // console.log(result)
-}
-console.log(result)
+// }
+// console.log(result)
+
+//-------------------------------------------------------------------------------------------------
+// Confirm whether given number is a 3 digit number?
+
+// Confirm whether given number is an 'N' digit number?
+
+//  student > 75%
+// if he has more than 75, allow to exam
+// if he doesnt has ask for permission, if yes allow him, if not dont allow him
+
+// Find whether a given number is a prime number or not?
+
+// ----------Confirm whether given number is a 3 digit number?
+// var a = 100;
+// a = '' + a
+// if(a.length == 3){
+//     console.log(`${a} is a 3 digit number`)
+// }else {
+//     console.log("Not a 3 digit number")
+// }
+
+// ------------Confirm whether given number is an 'N' digit number?
+
+// var a = 222;
+// a = '' + a
+// l = a.length
+// if(l == l){
+//     console.log(`${a} is ${l}  digit number`)
+// }else {
+//     console.log("Not a 3 digit number")
+// }
+
+//-------------------if he has more than 75, allow to exam-----------
+//---if he doesnt has ask for permission, if yes allow him, if not dont allow him
+
+// let attendence = 4;
+// if (attendence > (75)%){
+//     console.log("You can write the exam")
+// } else {
+    // console.log("Ask permssion to write Principal")
+//         if (true){
+//             console.log("You can write the exam")
+//         } else("Youre not allowed to write the exam")
+// }
+
+// Find whether a given number is a prime number or not?
+let a =4;
+if(a%2!=2){
+    console.log("It is a prime number")}
