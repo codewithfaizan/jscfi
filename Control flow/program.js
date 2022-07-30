@@ -1,5 +1,5 @@
 // ---------------------------------Program 
-// ecide a given number is positive/negative/zero---------------------------------
+// decide a given number is positive/negative/zero---------------------------------
 
 // let a;
 // a = 'hu';
@@ -230,51 +230,51 @@
 
 
 // ------------Confirm whether given number is an 'N' digit number?
-// var a = 222;
-// a = '' + a
-// l = a.length
-// if(l == l){
-//     console.log(`${a} is ${l}  digit number`)
-// }else {
-//     console.log("Not a 3 digit number")
-// }
+var a = 222;
+a = '' + a
+l = a.length
+if(l == a){
+    console.log(`${a} is ${l}  digit number`)
+}else {
+    console.log(`Not a ${l} digit number`)
+}
 
 
 
 //-----------------------if he has more than 75, allow to exam----------------
 //---if he doesnt has ask for permission, if yes allow him, if not dont allow him
-let attendence = 70;
-var isAllowed = false;
-if (attendence > 75){
-    console.log("You can write the exam")
-} else {
-    console.log("Ask permssion to write Principal")
-        if (isAllowed){
-            console.log("You can write the exam")
-        } else
-        { console.log("You're not allowed to write the exam")}
-}
+// let attendence = 70;
+// var isAllowed = false;
+// if (attendence > 75){
+//     console.log("You can write the exam")
+// } else {
+//     console.log("Ask permssion to write Principal")
+//         if (isAllowed){
+//             console.log("You can write the exam")
+//         } else
+//         { console.log("You're not allowed to write the exam")}
+// }
 
 
 // Find whether a given number is a prime number or not?
-num = 15 ;
-let found = false;
-if(num<=0){
-    console.log(`${num} is not a prime number`)
-} else if (num == 1)
-{console.log(`${num} is neither prime nor composite`)}
-    else { 
-         for(i=2;i<num;i++){
-                if(num % i === 0){
-                    console.log(`${num} is not a prime`)
-                    found = true;
-                    break;
-                } 
-        }
-    }
-    if (found == false) {
-        console.log('Is a prime number')
-    }
+// num = 15 ;
+// let found = false;
+// if(num<=0){
+//     console.log(`${num} is not a prime number`)
+// } else if (num == 1)
+// {console.log(`${num} is neither prime nor composite`)}
+//     else { 
+//          for(i=2;i<num;i++){
+//                 if(num % i === 0){
+//                     console.log(`${num} is not a prime`)
+//                     found = true;
+//                     break;
+//                 } 
+//         }
+//     }
+//     if (found == false) {
+//         console.log('Is a prime number')
+//     }
 
     // i1 = 2<5 ; false ; 5 is prime
     // i2 = 3<5 ; false ; 5 is prime

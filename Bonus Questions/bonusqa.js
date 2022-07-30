@@ -1,5 +1,5 @@
-//--------------------------------largest of three numbers---------------------------------
-//-------------cases--------------
+// --------------------------------largest of three numbers---------------------------------
+// -------------cases--------------
 // let a, b, c;
 // a = 3;
 // b = 8 ;
@@ -49,7 +49,7 @@
 
 // ---------------------------Program to get largest of three number----------------------------
 
-//-----------testing------------
+// -----------testing------------
 // var a = 2, b = 2, c = 2;
 // if ((a>b) && (a>c)){ //
 //     console.log(`${a} is greater`)
@@ -72,8 +72,8 @@
 //     console.log(`${c} is greater`)
 // }
 
-//---------------------------------- multiplication table given from any number to any number--------
-//----------------------------------------test1--------------------------
+// ---------------------------------- multiplication table given from any number to any number--------
+// ----------------------------------------test1--------------------------
 // i = 1;
 // count = 1;
 // a = [2,3,4,5];
@@ -85,7 +85,7 @@
 // }  // thiscode is printing only 2 table//-----------
 
 
-//--------------------test2------------taking without array
+// --------------------test2------------taking without array
 // i = 1;
 // count = 1;
 // while(i<=20){
@@ -100,14 +100,14 @@
 // } 
 //     }
 
-    //-----------------using nested while for printing 2 to 5 table-----------
-    // i=2;
-    // j=1;
-    // while(i<=5){
-    //     console.log(`---------${i} Table----`)
-    //     j = 1;
-    //     while(j<=10){ 
-    //         console.log(`${i}x${j}:${i*j}`);
-    //         j++    
-    //     }i++
-    // }
+//     -----------------using nested while for printing 2 to 5 table-----------
+//     i=2;
+//     j=1;
+//     while(i<=5){
+//         console.log(`---------${i} Table----`)
+//         j = 1;
+//         while(j<=10){ 
+//             console.log(`${i}x${j}:${i*j}`);
+//             j++    
+//         }i++
+//     }
