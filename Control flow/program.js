@@ -230,14 +230,14 @@
 
 
 // ------------Confirm whether given number is an 'N' digit number?
-var a = 222;
-a = '' + a
-l = a.length
-if(l == a){
-    console.log(`${a} is ${l}  digit number`)
-}else {
-    console.log(`Not a ${l} digit number`)
-}
+// var a = 222;
+// a = '' + a
+// l = a.length
+// if(l == a){
+//     console.log(`${a} is ${l}  digit number`)
+// }else {
+//     console.log(`Not a ${l} digit number`)
+// }
 
 
 
@@ -257,24 +257,24 @@ if(l == a){
 
 
 // Find whether a given number is a prime number or not?
-// num = 15 ;
-// let found = false;
-// if(num<=0){
-//     console.log(`${num} is not a prime number`)
-// } else if (num == 1)
-// {console.log(`${num} is neither prime nor composite`)}
-//     else { 
-//          for(i=2;i<num;i++){
-//                 if(num % i === 0){
-//                     console.log(`${num} is not a prime`)
-//                     found = true;
-//                     break;
-//                 } 
-//         }
-//     }
-//     if (found == false) {
-//         console.log('Is a prime number')
-//     }
+num = 15 ;
+let found = false;
+if(num<=0){
+    console.log(`${num} is not a prime number`)
+} else if (num == 1)
+{console.log(`${num} is neither prime nor composite`)}
+    else { 
+         for(i=2;i<num;i++){
+                if(num % i === 0){
+                    console.log(`${num} is not a prime`)
+                    found = true;
+                    break;
+                } 
+        }
+    }
+    if (found == false) {
+        console.log('Is a prime number')
+    }
 
     // i1 = 2<5 ; false ; 5 is prime
     // i2 = 3<5 ; false ; 5 is prime
