@@ -44,3 +44,68 @@
 //function can be used a variable value 
 
 
+// function add(a,b){
+//     console.log(a+b)
+// }
+// add(1,11)
+
+
+//even-----------------------
+// function even(a)
+// {
+//     for (i=1;i<=a;i++)
+//     {
+//     if ((i%2)==0)
+//         {
+//         console.log(i,'is even')
+//         }
+//     }
+// }
+// even(8);
+// i
+
+//odd--------------------------
+// function odd(num){
+//     for(i=1;i<=num;i++){
+//         if(i%2!=0){
+//             console.log(i,'is odd');
+//         }
+//     }
+// }
+
+// odd(10)
+
+//multiple of 2 ------------------
+// function mult(num)
+// {
+//     for(let i=1;i<=10;i++){
+    // return
+//         console.log(`3x${i}:${i*3}`)
+//     }
+// }
+// mult(2)
+
+//multiple t from 2 to 5---------
+// function  mult(num1,num2){
+//     for(i =2;i<=5;i++){
+//         console.log(`--------${i} Table ------`);
+//         for(j=1;j<=10;j++){
+//             console.log(`${i}x${j}:${i*j}`);
+//         }
+//     }
+
+// }
+// mult(2,5)
+
+// even(15)
+// function even(a)
+// {
+//     for (i=1;i<=a;i++)
+//     {
+//     if ((i%2)==0)
+//         {
+//        console.log(i,'is even'); 
+//         }
+//     }   
+// }
+// even(15)
