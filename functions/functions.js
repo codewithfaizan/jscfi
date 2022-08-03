@@ -85,6 +85,7 @@
 // }
 // mult(2)
 
+//------------------------------------------------
 //multiple t from 2 to 5---------
 // function  mult(num1,num2){
 //     for(i =2;i<=5;i++){
@@ -96,8 +97,8 @@
 
 // }
 // mult(2,5)
+//-------------------------------------------------
 
-// even(15)
 // function even(a)
 // {
 //     for (i=1;i<=a;i++)
@@ -109,3 +110,15 @@
 //     }   
 // }
 // even(15)
+//------------------------------------------------------
+
+let n1 = 2;
+let n2 = 2;
+function sum (n1, n2){
+    add = n1 + n2
+    return add;
+}
+result = sum(n1,n2)
+
+// console.log(sum(3,3))
+console.log(result);
