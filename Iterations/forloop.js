@@ -5,27 +5,34 @@
 
 
 // -----------------------1-5 using for loop-------------------
-// for(i=0;i<=5;i++){
+// for(i=1;i<=5;i++){
 //     console.log(i)
 // }
 
-//iteration-1: i=1; i<=5; 1
-//iteration-2: i=2; i<=5; 2
-//iteration-3: i=3; i<=5; 3
-//iteration-4: i=4; i<=5; 
-//iteration-5: i=5; i<=5; 1
+//iteration-1: i=1; i<=5; true;1 (2)
+//iteration-2: i=2; i<=5; t;2 (3)
+//iteration-3: i=3; i<=5; t;3 (4)
+//iteration-4: i=4; i<=5; t;4 (5)
+//iteration-5: i=5; i<=5; t;5 (6)
+//iteration-5: i=6; i<=5; false Termination.loop ends
 
 //----------------------10 to 5 using for loop-----------------
-
-// for (i=10;i>=5;i--){
+// count = ''
+// for (i=10;i>5;i--){
 //     console.log(i)
 // }
+// console.log(i,'is the value of i final');
 
-// iteration-1: i = 10; 10>=1; true; '10'; 10-- = (9)
-// iteration-2: i = 9; 9>=1; true; '9'; 10-- = (8)
-// iteration-3: i = 8; 8>=1; true; '8'; 9-- = (7)
-// iteration-4: i = 7; 7>=1; true; '7'; 8-- = (6)
-// iteration-5: i = 6; 6>=1; true; '6'; 7-- = (5)
+// for(let i = 10;i>=5;i--)
+// {
+// console.log(i);
+// }
+
+// iteration-1: i = 10; 10>=1; true;'10'; 10-- = (9)
+// iteration-2: i = 9; 9>=1; true; '9'; 9-- = (8)
+// iteration-3: i = 8; 8>=1; true; '8'; 8-- = (7)
+// iteration-4: i = 7; 7>=1; true; '7'; 7-- = (6)
+// iteration-5: i = 6; 6>=1; true; '6'; 6-- = (5)
 // iteration-6: i = 5; 5>=1; true; '5'; 5-- = (4)
 
 //--------------------even number between 50 - 100-----------------
@@ -69,12 +76,17 @@
 //     }
 // },
 
-// -----------iterate over each characterbof a string using array and string------
-//to print string character line by line 
+// -----------iterate over each character of a string using array and string------
+//to print string character line by line
+
 // let a = "faizan";
-// for (i = 0 ;i<a.length; i++){
-//     console.log(a[i])
+// d = ''
+// for (i = 1 ;i<a.length; i++)
+//     {
+//         d = d+'**'+ a[i]
+    // console.log(`${a[i]}`+d)
 // }
+// console.log(a[0]+d);
 
 // --------'code'--------c**o**d**e----------------
 // let a = "code"
@@ -111,7 +123,13 @@
 // 
 
 
-
+var start=2,end=9
+s=''
+for (i=start;i<=end;i++){
+    // s = s+i+' '
+    console.log(i)
+}
+// console.log(i)
 
 
 
@@ -150,11 +168,11 @@
 //     console.log(d)
 // }
 //------------------------------------
-let d = '0'
-for(i=0;i<=5;i++) {
-    d=d+1
-    console.log(d)
-}
+// let d = ''
+// for(i=0;i<5;i++) {
+//     d=d+1
+//     console.log(d)
+// }
 //--------------------------------
 // d = ' '
 // for(i=3;i>=1;i--){
