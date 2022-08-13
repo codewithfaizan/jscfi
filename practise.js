@@ -88,3 +88,12 @@
 
 //-------------------
 
+// let bootcamp = [ 'The', 'Hacking', 'School' ];
+// console.log(bootcamp[2]);
+// console.log(bootcamp.length);
+// bootcamp.length = 2
+// console.log(bootcamp);
+// console.log(bootcamp[3]);
+
+//---------------------
+

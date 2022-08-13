@@ -7,7 +7,7 @@
     // commenting -- single line comment nad double line comment 
      //Operators
 
-     console.log(Math.floor(0/2));
+    //  console.log(Math.floor(1/2));
     //  console.log(Math.ceil(4/3));
     //  a =a+4 is same as a+=4 ie a = a+4
     // let a = 10 
@@ -48,3 +48,13 @@
 // }
 // console.log(xyz);
 // var xyz = 2;
+
+
+// let num = 5;
+// let fac = 1;
+// debugger;
+// for (num; num > 1; num--) {
+//   fac = fac * num;
+// }
+
+// console.log(fac);

@@ -8,7 +8,7 @@
 
 // let a ="FAIZAN"
 // am = a.charCodeAt(2) // this method returns the unicode of the character
-// at a specified index position in a string
+// // at a specified index position in a string
 // console.log(am);
 
 //function ----------------------
@@ -31,8 +31,11 @@
 // function myfunction(a,b){
 //     console.log(a/b);
 //     return;
-//     console.log(a*b);
+    // console.log(a*b);
 // }
+// console.log(myfunction(10,10)); // 1
+
+// myfunction(10,10)
 
 // function is declared once, define code once and the code is used many times and with different arguments
 
@@ -43,14 +46,13 @@
 
 //function can be used a variable value 
 
-
 // function add(a,b){
 //     console.log(a+b)
 // }
 // add(1,11)
 
 
-//even-----------------------
+//  even-----------------------
 // function even(a)
 // {
 //     for (i=1;i<=a;i++)
@@ -112,13 +114,70 @@
 // even(15)
 //------------------------------------------------------
 
-let n1 = 2;
-let n2 = 2;
-function sum (n1, n2){
-    add = n1 + n2
-    return add;
-}
-result = sum(n1,n2)
+// let n1 = 2;
+// let n2 = 2;
+// function sum (n1, n2){
+//     add = n1 + n2
+//     return add;
+// }
+// result = sum(n1,n2)
 
-// console.log(sum(3,3))
-console.log(result);
+// // console.log(sum(3,3))
+// console.log(result);
+
+// / Function without parameters
+// function add(){
+//     console.log(2+3)
+// }
+// // console.log(add())
+
+// add()
+
+//date-----------------------
+
+// const d = new Date()
+// console.log(d);
+// const e = new Date(2018, 11, 24, 10, 33,);
+// console.log(e);
+
+// const f = new Date(99, 11, 24);
+// console.log(f);
+
+// const g = new Date(22, 11, 24);
+// console.log(g);
+
+// const d = new Date("2017-01-01");
+// console.log(d);
+
+// const e = new Date("2001-09-23")
+// console.log(e);
+
+// const f = new Date("2015-03-25T12:00:00Z");
+// console.log(f);
+
+// const g = new Date("Mar 25 2015");
+// console.log(g);
+
+
+// const d = new Date();
+// ;
+
+
+// const d = new Date();
+
+// console.log(d.getMonth());
+
+// const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+// const d = new Date();
+// console.log(d);
+// let month = months[d.getMonth()];
+// console.log(months);
+
+// const d  = new Date();
+// let month = months[d.getMonth()];
+// console.log(month);
+
+// const d = new Date();
+
+// console.log(d.getDate());

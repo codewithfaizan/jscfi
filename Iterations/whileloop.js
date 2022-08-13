@@ -190,13 +190,143 @@
 
 
 // -------table to print from 10 to 20-------
-var start=10, end=20;
-while (start<=end){
-    console.log(`------------${start} "\Table \" ------------`)
-    i=1
-    while(i<=10){
-        console.log(`${start} x ${i} = ${start*i}`)
-        i++
-    }
-    start++;
-}
+// var start=10, end=20;
+// while (start<=end){
+//     console.log(`------------${start} "\Table \" ------------`)
+//     i=1
+//     while(i<=10){
+//         console.log(`${start} x ${i} = ${start*i}`)
+//         i++
+//     }
+//     start++;
+// }
+
+
+// let a = 'Fly me to the moon'
+// console.log(a.toLowerCase().split(' '));
+// ini = words.map(a)
+// console.log(ini)
+    //----------------------------
+
+// function getInitials(sentence) {
+//     var words = sentence.toLowerCase().split(' ');
+//     var initials = words.map(function(word) {
+//     return word.charAt(0);
+//     });
+//     return initials.join('');
+//     }
+//     var result = getInitials('Fly me to the moon');
+//     console.log(result)
+    //------------------------------\
+
+//     let text = "5";
+// let padded = text.padStart(4,"x");
+// console.log(padded);
+
+// let numb = 5;
+// let text = numb.toString();
+// let padded = text.padStart(4,"0");
+// console.log(padded);
+
+// let text = "HELLO WORLD";
+// let char = text.charAt(0);
+// console.log(char);
+
+
+// let text = "HELLO WORLD";
+// let char = text.charCodeAt(0);
+// console.log(char);
+
+// let text = "HELLO WORLD";
+// let char = text[4];
+// console.log(char);
+
+// var itemsForSale = [
+//     { name: 'cheese', price: 3 },
+//     { name: 'tv', price: 300 },
+//     { name: 'socks', price: 2 },
+//     { name: 'soft toy', price: 7 },
+//     { name: 'fridge', price: 120 }
+//     ];
+//     function formatPrice(item) {
+//     item.price = '£' + item.price + '.00';
+//     return item;
+//     }
+//     var formattedItemsForSale = itemsForSale.map(formatPrice);
+//     var result = formattedItemsForSale[1].price;
+//     console.log(result);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//  ;
+// console.log(fruits.splice(2, 0, "Lemon", "Kiwi"));
+
+// const fruits = new Map([
+//     ["apples", 500],
+//     ["bananas", 300],
+//     ["oranges", 200]
+//   ]);
+//   console.log(fruits);
+
+
+// const fruits = new Map();
+
+// // Set Map Values
+// fruits.set("apples", 500);
+// fruits.set("bananas", 300);
+// fruits.set("oranges", 200);
+// console.log(fruits);
+
+// function containsCarbon(compound) {
+//     if (compound.indexOf('C') !== -1) {
+//     return 'yes';
+//     }
+//     return 'no';
+//     }
+//     var result = containsCarbon('CO2');
+// console.log(result);
+    
+// var you = {
+//     happy: true,
+//     knowsIt: false
+//     };
+//     function shouldClapHands(person) {
+//     if (!(person.happy && person.knowsIt)) {
+//     return false;
+//     }
+//     return true;
+//     }
+//     var result = shouldClapHands(you);
+
+//     console.log(result);
+
+//     function processStr(str) {
+//         return str
+//         .split('')
+//         .sort()
+//         .join('');
+//         }
+//         var result = processStr('made');
+//         console.log(result);
+
+//         var MAX_LENGTH = 5;
+// function checkStr(value) {
+// return value && value.length <= MAX_LENGTH;
+// }
+// var result = checkStr('pineapple');
+// console.log(result);
+
+// var vowels = ['a', 'e', 'i', 'o', 'u'];
+// function countVowels(inputString) {
+// var count = 0;
+// for (var i = 0; i < inputString.length; i += 1) {
+// var character = inputString.charAt(i);
+// if (vowels.indexOf(character) !== -1) {
+// count += 1;
+// }
+// }
+// return count;
+// }
+// var result = countVowels('boolean');
+// console.log(result);
+
+// console.log(vowels.indexOf('o'));
