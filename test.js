@@ -21,11 +21,19 @@
 // console.log(' ',output);
 
 
-arr = new Array (5,17,3,9)
+var arr = new Array (5,17,13,9)
+const prepend = (num) => {
+num = num.toString()
+for(i=0;i<num.length;i++){
+if(num[i].length>1){ 
+} else {
+    num = num[i].padStart(2,"0")
+}
+}return num
+ }
+console.log(prepend(arr));
 
-const prepend = (hey) => {
-return hey
-
-};
-
-prepend (arr)
+// let a = "1"
+// a=a.toString()
+// a = a.padStart(3,"0")
+// console.log(a);
