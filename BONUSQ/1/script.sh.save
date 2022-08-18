@@ -1,0 +1,6 @@
+# folder with timestamp 
+#inside the folder a file with with timestamp  inside whic date, time, username, path is stored
+
+tim="$(date +%T)"
+mkdir ~/bonusqstns/1/$tim/
+touch paper >> Node.js, PHP, Python and Java are used for Server-side programming
