@@ -1,7 +1,7 @@
 //  understanding map():  map is an array method where every element in the array runs a function
 
 let array=[1,2,3,4,5]
-// newarr = array.map((double = num => {return num*2}))
+// newarr = array.map((double =     num         =>      {return num*2}))
                 // function name = parameter function {code/statement(logic)}
 // console.log(newarr)
 
@@ -14,7 +14,7 @@ function double(x){ // we wrote a function that will iterate over every element 
 let newarray = vals.map(double)
 //  the map is a method that creates a new array so here were taking a new variable 
         //  called newarray that will store the callback values for each elements of the original array 
-console.log(newarray);
+// console.log(newarray);
 // ---------------------------------------------------------------------------
 
 
@@ -27,9 +27,10 @@ values = values.map((n => n*2))
 
 // example-----------------------------------
 let number = [1,2,3,4]
-
+let index;
 const doublly = number.map(
     function multiple(value){
-        return value*index } );
+
+        return value*charCodeAt()});
 
 console.log(doublly)

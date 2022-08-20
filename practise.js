@@ -97,3 +97,40 @@
 
 //---------------------
 
+//Generate N even numbers
+// let count = 0;
+// let genEven = (num) =>{
+//     let i=2;
+// while(count < num){
+//     console.log(i)
+//     i+=2;
+//     count++;
+//     }
+// }
+// genEven(10);
+
+
+// let genOdd = (num) =>{
+//     let i=1;
+//     let count = 0;
+//     while( count < 10){
+//         console.log(i)
+//         i+=2;
+//         count++;
+//     }
+// }
+// genOdd(10);
+
+// Write a program to decide given N is Prime or not.
+
+let isPrime=(num)=>{
+    if( num == 0 || num == 1) return false;
+    else if( num%2 == 0 ) return false;
+    else{
+        for(let i=2; i<num; i++){
+            if( (num % i) == 0) return false;
+        }
+    }
+    return true
+}
+console.log(isPrime(17)) 
