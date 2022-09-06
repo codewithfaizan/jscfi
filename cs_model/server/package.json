@@ -1,0 +1,18 @@
+{
+  "name": "tasky-server",
+  "version": "1.0.0",
+  "description": "This is the backend for a Tasky Application",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keyword": [
+    "Tasky",
+    "app",
+    "Reminder",
+    "application"
+  ],
+  "author": "Faizan",
+  "license": "ISC"
+}
